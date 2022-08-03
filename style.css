@@ -551,19 +551,31 @@
     }
     
     .skills-content .right .html::before {
-        width: 60%;
+        width: 90%;
     }
     
     .skills-content .right .css::before {
-        width: 50%;
+        width: 80%;
+    }
+
+    .skills-content .right .javascript::before {
+        width: 80%;
     }
     
     .skills-content .right .java::before {
         width: 70%;
     }
+
+    .skills-content .right .reactjs::before {
+        width: 80%;
+    }
+
+    .skills-content .right .nextjs::before {
+        width: 70%;
+    }
     
     .skills-content .right .kotlin::before {
-        width: 60%;
+        width: 70%;
     }
     
     .skills-content .right .mysql::before {
@@ -581,6 +593,7 @@
         padding: 25px 35px;
         text-align: center;
         transition: all 0.3s ease;
+        height: 303px;
     }
     
     .portfolio .carousel .card:hover {
@@ -593,6 +606,7 @@
         align-items: center;
         justify-content: center;
         transition: all 0.3s ease;
+        color: #fff;
     }
     
     .portfolio .carousel .card:hover .box {
@@ -866,7 +880,7 @@
         }
         .about .about-content .left img {
             height: 400px;
-            width: 600px;
+            width: 100%;
             object-fit: cover;
         }
         .about .about-content .right {

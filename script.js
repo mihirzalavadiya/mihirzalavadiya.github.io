@@ -19,14 +19,14 @@ $(document).ready(function() {
 
     // typing animation script
     var typed = new Typed(".typing", {
-        strings: ["Web Developer", "Android Developer", "Freelancer"],
+        strings: ["Web Developer", "UI-UX Designer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     })
 
     var typed = new Typed(".typing-2", {
-        strings: ["Web Developer", "Android Developer", "Freelancer"],
+        strings: ["Web Developer", "UI-UX Designer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
@@ -42,7 +42,7 @@ $(document).ready(function() {
     $('.carousel').owlCarousel({
         margin: 10,
         loop: true,
-        autoplayTimeOut: 2000,
+        autoplayTimeOut: 1,
         autoplayHoverPause: true,
         responsive: {
             0: {
